@@ -33,7 +33,6 @@ export class CommentComponent implements OnInit {
   }
 
   onReceiveChildEvent(event) {
-    console.log(this.commentNumber);
     this.animate = event;
     this.childEvent.emit(event);
   }
