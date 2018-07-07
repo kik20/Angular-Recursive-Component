@@ -1,3 +1,8 @@
+# Angular-Recursive-Component
+Recursive component in Angular 6 demonstrated by making a comment component with cool animations
+
+Get the live preview on stackblitz at https://stackblitz.com/github/kik20/Angular-Recursive-Component
+
 # RecursiveComponent
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
