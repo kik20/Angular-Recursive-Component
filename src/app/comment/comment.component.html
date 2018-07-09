@@ -9,9 +9,10 @@
     }">
     comment {{commentNumber}} works!
   </p>
-  <span  (click)="onReply()" (mouseover)="onHover()"  (mouseleave)="onMouseLeave()">
+  <!-- <span  (click)="onReply()" (mouseover)="onHover()"  (mouseleave)="onMouseLeave()">
     <i class="fa fa-reply"></i>
-  </span>
+  </span> -->
+  <button (click)="onReply()" (mouseover)="onHover()"  (mouseleave)="onMouseLeave()">reply</button>
   <ng-container *ngFor="let reply of commentReplies; index as index">
     <app-comment [childOrder]="index" (childEvent)="onReceiveChildEvent($event)"></app-comment>
   </ng-container>
