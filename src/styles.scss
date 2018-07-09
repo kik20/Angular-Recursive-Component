@@ -1,27 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Kaushan+Script');
 $color1: hsl(237, 100%, 76%);
-$color2: hsl(237, 100%, 70%);
+$color2: hsl(237, 100%, 68%);
 
 $primaryColor: $color1;
 $primaryHoverDarkColor: $color2;
-button {
-    border-radius: 30%;
-    padding: 5px;
-    padding-bottom: 10px;
-    background-color: $primaryColor;
-    border: 0;
-    color: white;
-}
-
-button:hover {
-    background: linear-gradient($primaryColor, $primaryHoverDarkColor);
-    cursor: pointer;
-}
-
-button:active { 
-    transform: scale(0.95);
-}
 
 * {
     margin: 0;
@@ -31,6 +14,30 @@ button:active {
     font-size: 20px;
     background-color: rgb(250, 250, 250);
 }
+
+button, i {
+    border-radius: 30%;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: $primaryColor;
+    border: 0;
+    color: white;
+}
+
+i {
+    padding: 5px 10px;
+}
+
+button:hover, i:hover {
+    background: linear-gradient($primaryColor, $primaryHoverDarkColor);
+    cursor: pointer;
+}
+
+button:active, i:active { 
+    transform: scale(0.95);
+}
+
+
 
 p {
     padding: 10px;
